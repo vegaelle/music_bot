@@ -18,5 +18,5 @@ api = tweepy.API(auth)
 while True :
     g = genre_cplx()
     api.update_status(g)
-    print("Tweeting : ", g, " at ", localtime(time()))
+    print("Tweeting : ", g, " at ", asctime(localtime(time())))
     sleep(7200)
