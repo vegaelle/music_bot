@@ -63,6 +63,8 @@ def genre(k):
             return "stoner %s" % (g)
         elif n == 20 :
             return "speed %s" % (g)
+        elif n == 21 :
+            return "acid %s" % (g)
         else :
             return g
             
@@ -93,7 +95,7 @@ def nationalite():
             
 
 def genre_simple():
-    n = randint(0,10)
+    n = randint(0,11)
 
     if n == 0 :
         return "jazz"
@@ -115,6 +117,10 @@ def genre_simple():
         return "swing"
     elif n == 9 :
         return "EDM"
+    elif n == 10 :
+        return "baroque"
+    elif n == 11 :
+        return "punk"
     else : 
         return "musique"
         
