@@ -84,6 +84,10 @@ def nationalite():
         return "Southern %s" % (g)
     elif n == 5 :
         return "%s manouche" % (g)
+    elif n == 6 :
+        return "%s argentin" % (g)
+    elif n == 7 :
+        return "%s provençal" % (g)
     else :
         return g
             
